@@ -16,6 +16,7 @@ Classifies 24,000 Hacker News posts into 12 rhetorical categories while streamin
 ```bash
 cd hacker-news-atlas
 npm install
+npm run build
 VENICE_API_KEY="your-key" npm start
 # http://localhost:8787
 ```
@@ -31,6 +32,7 @@ Compares Jev with a cosine-similarity baseline on 19,666 human-labeled SNLI sent
 ```bash
 cd contradiction-atlas
 npm install
+npm run build
 VENICE_API_KEY="your-key" npm start
 # http://localhost:8788
 ```
