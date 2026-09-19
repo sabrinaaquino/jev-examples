@@ -55,3 +55,9 @@ The API key is read only by the Node servers. It is never sent to browser code.
 - A Venice API key with access to `jev-latest`
 
 See [Typed Decisions with Jev](https://docs.venice.ai/guides/features/decisions) for the request model and question types.
+
+## Data attribution
+
+- Hacker News data is sourced from the public Algolia HN Search API.
+- SNLI is distributed under CC BY-SA 4.0; see the attribution inside `contradiction-atlas/README.md`.
+- The repository's application code is MIT licensed.
