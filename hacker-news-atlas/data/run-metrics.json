@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-09-18T21:42:49.716Z",
+  "corpusItems": 24000,
+  "baselineRequests": 501,
+  "baselineWallClockMs": 329167,
+  "ingestWallClockMs": 24969,
+  "pricing": {
+    "inputPerMillionTokensUsd": 0.0525,
+    "outputPerMillionTokensUsd": 0
+  },
+  "estimate": {
+    "sampledBatches": 20,
+    "batchSize": 48,
+    "meanInputTokensPerBatch": 21700,
+    "meanOutputTokensPerBatch": 5304,
+    "inputTokens": 10850175,
+    "inputTokensMargin95": 327904,
+    "outputTokens": 2651825,
+    "costUsd": 0.5696,
+    "costMargin95Usd": 0.0172
+  },
+  "methodology": "Estimated from evenly spaced, production-shaped batches across the corpus. The supplied inference key cannot read the account billing ledger, so cost is not labeled exact."
+}

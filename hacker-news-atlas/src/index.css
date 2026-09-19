@@ -1,0 +1,16 @@
+:root {
+  color: #e2e8f0;
+  background: #070a10;
+  font-family: "Avenir Next", Avenir, "Helvetica Neue", Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --sans: "Avenir Next", Avenir, "Helvetica Neue", Arial, sans-serif;
+  --mono: "Avenir Next", Avenir, "Helvetica Neue", Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+html, body, #root { width: 100%; min-width: 320px; min-height: 100%; margin: 0; }
+body { min-height: 100svh; overflow: hidden; }
+button, input { font: inherit; }
+button:focus-visible, input:focus-visible, a:focus-visible { outline: 2px solid #ff7a18; outline-offset: 2px; }
+::selection { color: white; background: #ff66008c; }

@@ -1,0 +1,37 @@
+{
+  "generatedAt": "2026-09-18T18:55:57.573Z",
+  "source": "https://hn.algolia.com/api",
+  "strategy": "One deterministic day every 2 months; balanced story/comment queries; evenly downsampled",
+  "requestedItems": 24000,
+  "items": 24000,
+  "rawUsableItems": 27502,
+  "kindCounts": {
+    "story": 9841,
+    "comment": 14159
+  },
+  "yearCounts": {
+    "2006": 1,
+    "2007": 1031,
+    "2008": 992,
+    "2009": 1017,
+    "2010": 991,
+    "2011": 960,
+    "2012": 943,
+    "2013": 937,
+    "2014": 915,
+    "2015": 1062,
+    "2016": 1439,
+    "2017": 1426,
+    "2018": 1425,
+    "2019": 1420,
+    "2020": 1423,
+    "2021": 1419,
+    "2022": 1416,
+    "2023": 1413,
+    "2024": 1414,
+    "2025": 1405,
+    "2026": 951
+  },
+  "firstTimestamp": 1166112730,
+  "lastTimestamp": 1786406381
+}
