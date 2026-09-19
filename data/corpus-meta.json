@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-09-18T22:34:40.270Z",
+  "source": "stanfordnlp/snli",
+  "sourceUrl": "https://huggingface.co/datasets/stanfordnlp/snli",
+  "license": "CC BY-SA 4.0",
+  "splits": [
+    "validation",
+    "test"
+  ],
+  "total": 19666,
+  "labels": {
+    "entailment": 6697,
+    "neutral": 6454,
+    "contradiction": 6515
+  }
+}

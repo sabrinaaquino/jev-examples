@@ -1,0 +1,16 @@
+:root {
+  color: #1b1a18;
+  background: #f3f0e9;
+  font-family: "Avenir Next", Avenir, "Helvetica Neue", Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --sans: "Avenir Next", Avenir, "Helvetica Neue", Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+html, body, #root { width: 100%; min-width: 320px; min-height: 100%; margin: 0; }
+body { min-height: 100svh; overflow: hidden; }
+button { font: inherit; }
+button:focus-visible { outline: 2px solid #1b1a18; outline-offset: 3px; }
+::selection { background: #f3c06d; }

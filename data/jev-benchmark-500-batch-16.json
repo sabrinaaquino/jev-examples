@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-09-18T22:37:10.434Z",
+  "examples": 500,
+  "batchSize": 16,
+  "requests": 32,
+  "elapsedMs": 24057,
+  "accuracy": 0.87,
+  "correct": 435,
+  "inputTokens": 91848,
+  "outputTokens": 21358,
+  "estimatedCostUsd": 0.00482202,
+  "confusion": {
+    "entailment": {
+      "entailment": 152,
+      "neutral": 21,
+      "contradiction": 0
+    },
+    "neutral": {
+      "entailment": 3,
+      "neutral": 152,
+      "contradiction": 2
+    },
+    "contradiction": {
+      "entailment": 0,
+      "neutral": 39,
+      "contradiction": 131
+    }
+  }
+}
